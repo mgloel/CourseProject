@@ -13,7 +13,7 @@
 library(dplyr)
 
 # Download zipfile from website and extract
-setwd('/Users/matthiasgloel/Coursera/GettingCleaning/CourseProject/')
+
 
 fileURL <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
 download.file(fileURL, destfile="Dataset.zip", method = 'curl')
